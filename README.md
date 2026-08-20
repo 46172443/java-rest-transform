@@ -14,7 +14,8 @@ Start the application, then send:
 curl -X POST http://localhost:8080/api/v1/transform \
   -H "Content-Type: application/json" \
   -d '{"text":"hello java"}'
-Response:
+
+##Response:
 
 {
   "original": "hello java",
